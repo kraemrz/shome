@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
-from powerOff import *
+import powerOff
 
 
 def main():
-	BUTTON()
+    powerOff.main()
 
 if __name__ == '__main__':
-	main()
+    main()
